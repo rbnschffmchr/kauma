@@ -1,0 +1,49 @@
+{
+  "testcases": {
+    "1": {
+      "action": "gf_mul",
+      "arguments": {
+        "a": "oAAAAEAAAAAAAAAAAAAAAA==",
+        "b": "hAAAAAAAAAAAAAAAAAAAAA==",
+        "poly": "p1"
+      }
+    },
+    "2": {
+      "action": "gf_divmod",
+      "arguments": {
+        "a": "oAAAAEAAAAAAAAAAAAAAAA==",
+        "b": "hAAAAAAAAAAAAAAAAAAAAA=="
+      }
+    },
+    "3": {
+      "action": "gf_inv",
+      "arguments": {
+        "x": "NeverGonnaGiveYouUp//w==",
+        "poly": "p1"
+      }
+    },
+    "4": {
+      "action": "gf_div",
+      "arguments": {
+        "a": "///YOUTUBE///////AAAAA==",
+        "b": "///rS00xWnqwvI///AAAAA==",
+        "poly": "p1"
+      }
+    },
+    "5": {
+      "action": "gf_pow",
+      "arguments": {
+        "b": "hAAAAAAAAAAAAAAAAAAAAA==",
+        "e": 123456,
+        "poly": "p1"
+      }
+    },
+    "6": {
+      "action": "gf_sqrt",
+      "arguments": {
+        "x": "oAAAAEAAAAAAAAAAAAAAAA==",
+        "poly": "p2"
+      }
+    }
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "testcases": {
+    "tc_gfpoly_sort_1": {
+      "action": "gfpoly_sort",
+      "arguments": {
+        "polys": [
+          [
+            "NeverGonnaGiveYouUpAAA==",
+            "NeverGonnaLetYouDownAA==",
+            "NeverGonnaRunAroundAAA==",
+            "AndDesertYouAAAAAAAAAA=="
+          ],
+          [
+            "WereNoStrangersToLoveA==",
+            "YouKnowTheRulesAAAAAAA==",
+            "AndSoDoIAAAAAAAAAAAAAA=="
+          ],
+          [
+            "NeverGonnaMakeYouCryAA==",
+            "NeverGonnaSayGoodbyeAA==",
+            "NeverGonnaTellALieAAAA==",
+            "AndHurtYouAAAAAAAAAAAA=="
+          ]
+        ]
+      }
+    },
+    "tc_gfpoly_monic_1": {
+      "action": "gfpoly_monic",
+      "arguments": {
+        "A": [
+          "NeverGonnaGiveYouUpAAA==",
+          "NeverGonnaLetYouDownAA==",
+          "NeverGonnaRunAroundAAA==",
+          "AndDesertYouAAAAAAAAAA=="
+        ],
+        "poly": "p1"
+      }
+    },
+    "tc_gfpoly_add_1": {
+      "action": "gfpoly_add",
+      "arguments": {
+        "A": [
+          "NeverGonnaGiveYouUpAAA==",
+          "NeverGonnaLetYouDownAA==",
+          "NeverGonnaRunAroundAAA==",
+          "AndDesertYouAAAAAAAAAA=="
+        ],
+        "B": [
+          "KryptoanalyseAAAAAAAAA==",
+          "DHBWMannheimAAAAAAAAAA=="
+        ],
+        "poly": "p1"
+      }
+    },
+    "tc_gfpoly_mul_1": {
+      "action": "gfpoly_mul",
+      "arguments": {
+        "A": [
+          "JAAAAAAAAAAAAAAAAAAAAA==",
+          "wAAAAAAAAAAAAAAAAAAAAA==",
+          "ACAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "B": [
+          "0AAAAAAAAAAAAAAAAAAAAA==",
+          "IQAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "poly": "p1"
+      }
+    },
+    "tc_gfpoly_divmod_1": {
+      "action": "gfpoly_divmod",
+      "arguments": {
+        "A": [
+          "JAAAAAAAAAAAAAAAAAAAAA==",
+          "wAAAAAAAAAAAAAAAAAAAAA==",
+          "ACAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "B": [
+          "0AAAAAAAAAAAAAAAAAAAAA==",
+          "IQAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "poly": "p1"
+      }
+    },
+    "tc_gfpoly_gcd_1": {
+      "action": "gfpoly_gcd",
+      "arguments": {
+        "A": [
+          "DNWpXnnY24XecPa7a8vrEA==",
+          "I8uYpCbsiPaVvUznuv1IcA==",
+          "wsbiU432ARWuO93He3vbvA==",
+          "zp0g3o8iNz7Y+8oUxw1vJw==",
+          "J0GekE3uendpN6WUAuJ4AA==",
+          "wACd0e6u1ii4AAAAAAAAAA==",
+          "ACAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "B": [
+          "I20VjJmlSnRSe88gaDiLRQ==",
+          "0Cw5HxJm/pfybJoQDf7/4w==",
+          "8ByrMMf+vVj5r3YXUNCJ1g==",
+          "rEU/f2UZRXqmZ6V7EPKfBA==",
+          "LfdALhvCrdhhGZWl9l9DSg==",
+          "KSUKhN0n6/DZmHPozd1prw==",
+          "DQrRkuA9Zx279wAAAAAAAA==",
+          "AhCEAAAAAAAAAAAAAAAAAA=="
+        ],
+        "poly": "p1"
+      }
+    },
+    "tc_gfpoly_pow_1": {
+      "action": "gfpoly_pow",
+      "arguments": {
+        "B": [
+          "JAAAAAAAAAAAAAAAAAAAAA==",
+          "wAAAAAAAAAAAAAAAAAAAAA==",
+          "ACAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "e": 3,
+        "poly": "p1"
+      }
+    },
+    "tc_gfpoly_powmod_1": {
+      "action": "gfpoly_powmod",
+      "arguments": {
+        "B": [
+          "JAAAAAAAAAAAAAAAAAAAAA==",
+          "wAAAAAAAAAAAAAAAAAAAAA==",
+          "ACAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "e": "0x3e8",
+        "M": [
+          "KryptoanalyseAAAAAAAAA==",
+          "DHBWMannheimAAAAAAAAAA=="
+        ],
+        "poly": "p1"
+      }
+    },
+    "tc_gfpoly_diff_1": {
+      "action": "gfpoly_diff",
+      "arguments": {
+        "F": [
+          "IJustWannaTellYouAAAAA==",
+          "HowImFeelingAAAAAAAAAA==",
+          "GottaMakeYouAAAAAAAAAA==",
+          "UnderstaaaaaAAAAAAAAAA=="
+        ],
+        "poly": "p1"
+      }
+    },
+    "tc_gfpoly_sqrt_1": {
+      "action": "gfpoly_sqrt",
+      "arguments": {
+        "S": [
+          "5TxUxLHO1lHE/rSFquKIAg==",
+          "AAAAAAAAAAAAAAAAAAAAAA==",
+          "0DEUJYdHlmd4X7nzzIdcCA==",
+          "AAAAAAAAAAAAAAAAAAAAAA==",
+          "PKUa1+JHTxHE8y3LbuKIIA==",
+          "AAAAAAAAAAAAAAAAAAAAAA==",
+          "Ds96KiAKKoigKoiKiiKAiA=="
+        ],
+        "poly": "p1"
+      }
+    },
+    "tc_gfpoly_factor_sff_1": {
+      "action": "gfpoly_factor_sff",
+      "arguments": {
+        "F": [
+          "vL77UwAAAAAAAAAAAAAAAA==",
+          "mEHchYAAAAAAAAAAAAAAAA==",
+          "9WJa0MAAAAAAAAAAAAAAAA==",
+          "akHfwWAAAAAAAAAAAAAAAA==",
+          "E12o/QAAAAAAAAAAAAAAAA==",
+          "vKJ/FgAAAAAAAAAAAAAAAA==",
+          "yctWwAAAAAAAAAAAAAAAAA==",
+          "c1BXYAAAAAAAAAAAAAAAAA==",
+          "o0AtAAAAAAAAAAAAAAAAAA==",
+          "AbP2AAAAAAAAAAAAAAAAAA==",
+          "k2YAAAAAAAAAAAAAAAAAAA==",
+          "vBYAAAAAAAAAAAAAAAAAAA==",
+          "dSAAAAAAAAAAAAAAAAAAAA==",
+          "69gAAAAAAAAAAAAAAAAAAA==",
+          "VkAAAAAAAAAAAAAAAAAAAA==",
+          "a4AAAAAAAAAAAAAAAAAAAA==",
+          "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "poly": "p1"
+      }
+    },
+    "tc_gfpoly_factor_ddf_1": {
+      "action": "gfpoly_factor_ddf",
+      "arguments": {
+        "F": [
+          "tpkgAAAAAAAAAAAAAAAAAA==",
+          "m6MQAAAAAAAAAAAAAAAAAA==",
+          "8roAAAAAAAAAAAAAAAAAAA==",
+          "3dUAAAAAAAAAAAAAAAAAAA==",
+          "FwAAAAAAAAAAAAAAAAAAAA==",
+          "/kAAAAAAAAAAAAAAAAAAAA==",
+          "a4AAAAAAAAAAAAAAAAAAAA==",
+          "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "poly": "p1"
+      }
+    },
+    "tc_gfpoly_factor_edf_1": {
+      "action": "gfpoly_factor_edf",
+      "arguments": {
+        "F": [
+          "mmAAAAAAAAAAAAAAAAAAAA==",
+          "AbAAAAAAAAAAAAAAAAAAAA==",
+          "zgAAAAAAAAAAAAAAAAAAAA==",
+          "FwAAAAAAAAAAAAAAAAAAAA==",
+          "AAAAAAAAAAAAAAAAAAAAAA==",
+          "wAAAAAAAAAAAAAAAAAAAAA==",
+          "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "d": 3,
+        "poly": "p1"
+      }
+    },
+    "tc_gcm_crack_1": {
+      "action": "gcm_crack",
+      "arguments": {
+        "nonce": "4gF+BtR3ku/PUQci",
+        "m1": {
+          "ciphertext": "CGOkZDnJEt24aVV8mqQq+P4pouVDWhAYj0SN5MDAgg==",
+          "associated_data": "TmFjaHJpY2h0IDE=",
+          "tag": "GC9neV3aZLnmznTIWqCC4A=="
+        },
+        "m2": {
+          "ciphertext": "FnWyLSTfRrO8Y1MuhLIs6A==",
+          "associated_data": "",
+          "tag": "gb2ph1vzwU85/FsUg51t3Q=="
+        },
+        "m3": {
+          "ciphertext": "CGOkZDnJEt25aV58iaMt6O8+8chKVh0Eg1XFxA==",
+          "associated_data": "TmFjaHJpY2h0IDM=",
+          "tag": "+/aDjsAzTseDLuM4jt5Q6Q=="
+        },
+        "forgery": {
+          "ciphertext": "AXe/ZQ==",
+          "associated_data": ""
+        },
+        "poly": "p1"
+      }
+    }
+  },
+  "expectedResults": {
+    "tc_gfpoly_sort_1": {
+      "sorted": [
+        [
+          "WereNoStrangersToLoveA==",
+          "YouKnowTheRulesAAAAAAA==",
+          "AndSoDoIAAAAAAAAAAAAAA=="
+        ],
+        [
+          "NeverGonnaMakeYouCryAA==",
+          "NeverGonnaSayGoodbyeAA==",
+          "NeverGonnaTellALieAAAA==",
+          "AndHurtYouAAAAAAAAAAAA=="
+        ],
+        [
+          "NeverGonnaGiveYouUpAAA==",
+          "NeverGonnaLetYouDownAA==",
+          "NeverGonnaRunAroundAAA==",
+          "AndDesertYouAAAAAAAAAA=="
+        ]
+      ]
+    },
+    "tc_gfpoly_monic_1": {
+      "A*": [
+        "edY47onJ4MtCENDTHG/sZw==",
+        "oaXjCKnceBIxSavZ9eFT8w==",
+        "1Ial5rAJGOucIdUe3zh5bw==",
+        "gAAAAAAAAAAAAAAAAAAAAA=="
+      ]
+    },
+    "tc_gfpoly_add_1": {
+      "S": [
+        "H1d3GuyA9/0OxeYouUpAAA==",
+        "OZuIncPAGEp4tYouDownAA==",
+        "NeverGonnaRunAroundAAA==",
+        "AndDesertYouAAAAAAAAAA=="
+      ]
+    },
+    "tc_gfpoly_mul_1": {
+      "P": [
+        "MoAAAAAAAAAAAAAAAAAAAA==",
+        "sUgAAAAAAAAAAAAAAAAAAA==",
+        "MbQAAAAAAAAAAAAAAAAAAA==",
+        "AAhAAAAAAAAAAAAAAAAAAA=="
+      ]
+    },
+    "tc_gfpoly_divmod_1": {
+      "Q": [
+        "nAIAgCAIAgCAIAgCAIAgCg==",
+        "m85znOc5znOc5znOc5znOQ=="
+      ],
+      "R": [
+        "lQNA0DQNA0DQNA0DQNA0Dg=="
+      ]
+    },
+    "tc_gfpoly_gcd_1": {
+      "G": [
+        "NeverGonnaMakeYouCryAA==",
+        "NeverGonnaSayGoodbyeAA==",
+        "NeverGonnaTellALieAAAA==",
+        "AndHurtYouAAAAAAAAAAAA==",
+        "gAAAAAAAAAAAAAAAAAAAAA=="
+      ]
+    },
+    "tc_gfpoly_pow_1": {
+      "Z": [
+        "AkkAAAAAAAAAAAAAAAAAAA==",
+        "DDAAAAAAAAAAAAAAAAAAAA==",
+        "LQIIAAAAAAAAAAAAAAAAAA==",
+        "8AAAAAAAAAAAAAAAAAAAAA==",
+        "ACgCQAAAAAAAAAAAAAAAAA==",
+        "AAAMAAAAAAAAAAAAAAAAAA==",
+        "AAAAAgAAAAAAAAAAAAAAAA=="
+      ]
+    },
+    "tc_gfpoly_powmod_1": {
+      "Z": [
+        "oNXl5P8xq2WpUTP92u25zg=="
+      ]
+    },
+    "tc_gfpoly_diff_1": {
+      "F'": [
+        "HowImFeelingAAAAAAAAAA==",
+        "AAAAAAAAAAAAAAAAAAAAAA==",
+        "UnderstaaaaaAAAAAAAAAA=="
+      ]
+    },
+    "tc_gfpoly_sqrt_1": {
+      "R": [
+        "NeverGonnaGiveYouUpAAA==",
+        "NeverGonnaLetYouDownAA==",
+        "NeverGonnaRunAroundAAA==",
+        "AndDesertYouAAAAAAAAAA=="
+      ]
+    },
+    "tc_gfpoly_factor_sff_1": {
+      "factors": [
+        {
+          "factor": [
+            "q4AAAAAAAAAAAAAAAAAAAA==",
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+          ],
+          "exponent": 1
+        },
+        {
+          "factor": [
+            "iwAAAAAAAAAAAAAAAAAAAA==",
+            "CAAAAAAAAAAAAAAAAAAAAA==",
+            "AAAAAAAAAAAAAAAAAAAAAA==",
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+          ],
+          "exponent": 2
+        },
+        {
+          "factor": [
+            "kAAAAAAAAAAAAAAAAAAAAA==",
+            "CAAAAAAAAAAAAAAAAAAAAA==",
+            "wAAAAAAAAAAAAAAAAAAAAA==",
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+          ],
+          "exponent": 3
+        }
+      ]
+    },
+    "tc_gfpoly_factor_ddf_1": {
+      "factors": [
+        {
+          "factor": [
+            "q4AAAAAAAAAAAAAAAAAAAA==",
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+          ],
+          "degree": 1
+        },
+        {
+          "factor": [
+            "mmAAAAAAAAAAAAAAAAAAAA==",
+            "AbAAAAAAAAAAAAAAAAAAAA==",
+            "zgAAAAAAAAAAAAAAAAAAAA==",
+            "FwAAAAAAAAAAAAAAAAAAAA==",
+            "AAAAAAAAAAAAAAAAAAAAAA==",
+            "wAAAAAAAAAAAAAAAAAAAAA==",
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+          ],
+          "degree": 3
+        }
+      ]
+    },
+    "tc_gfpoly_factor_edf_1": {
+      "factors": [
+        [
+          "iwAAAAAAAAAAAAAAAAAAAA==",
+          "CAAAAAAAAAAAAAAAAAAAAA==",
+          "AAAAAAAAAAAAAAAAAAAAAA==",
+          "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        [
+          "kAAAAAAAAAAAAAAAAAAAAA==",
+          "CAAAAAAAAAAAAAAAAAAAAA==",
+          "wAAAAAAAAAAAAAAAAAAAAA==",
+          "gAAAAAAAAAAAAAAAAAAAAA=="
+        ]
+      ]
+    },
+    "tc_gcm_crack_1": {
+      "tag": "Y16EEEO1sgJX3IsJSwEXlA==",
+      "H": "Nxn7h7ruk8eiNAG6AfhUFg==",
+      "mask": "tXjFK5vCqIPl6fKAJAyy9A=="
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "testcases": {
+    "never-gonna": {
+      "action": "calc",
+      "arguments": {
+        "lhs": 1234,
+        "op": "*",
+        "rhs": 333
+      }
+    },
+    "give-you-up": {
+      "action": "calc",
+      "arguments": {
+        "lhs": 1234,
+        "op": "+",
+        "rhs": 333
+      }
+    }
+  }
+}

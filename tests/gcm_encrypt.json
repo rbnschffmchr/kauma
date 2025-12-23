@@ -1,0 +1,12 @@
+{
+  "1": {
+    "action": "gcm_encrypt",
+    "arguments": {
+      "poly": "p1",
+      "nonce": "4gF+BtR3ku/PUQci",
+      "key": "Xjq/GkpTSWoe3ZH0F+tjrQ==",
+      "plaintext": "RGFzIGlzdCBlaW4gVGVzdA==",
+      "ad": "QUQtRGF0ZW4="
+    }
+  }
+}

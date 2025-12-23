@@ -1,0 +1,67 @@
+{
+  "testcases": {
+    "div-pos-pos": {
+      "action": "calc",
+      "arguments": { "lhs": 7, "op": "/", "rhs": 3 }
+    },
+    "div-neg-pos": {
+      "action": "calc",
+      "arguments": { "lhs": -7, "op": "/", "rhs": 3 }
+    },
+    "div-pos-neg": {
+      "action": "calc",
+      "arguments": { "lhs": 7, "op": "/", "rhs": -3 }
+    },
+    "div-neg-neg": {
+      "action": "calc",
+      "arguments": { "lhs": -7, "op": "/", "rhs": -3 }
+    },
+    "div-large-pos": {
+      "action": "calc",
+      "arguments": { "lhs": "0x16345785d8a0000000000000", "op": "/", "rhs": 3 }
+    },
+    "div-large-neg": {
+      "action": "calc",
+      "arguments": { "lhs": "-0x16345785d8a0000000000000", "op": "/", "rhs": 3 }
+    },
+    "div-large-hex": {
+      "action": "calc",
+      "arguments": { "lhs": "0x100000000000000000000000000000000", "op": "/", "rhs": 10000000000 }
+    },
+    "div-large-hex-neg": {
+      "action": "calc",
+      "arguments": { "lhs": "-0x100000000000000000000000000000000", "op": "/", "rhs": 10000000000 }
+    },
+    "div-rest-pos": {
+      "action": "calc",
+      "arguments": { "lhs": -13, "op": "/", "rhs": 5 }
+    },
+    "div-rest-neg": {
+      "action": "calc",
+      "arguments": { "lhs": 13, "op": "/", "rhs": -5 }
+    },
+    "div-hex-dozent": {
+      "action": "calc",
+      "arguments": { "lhs": "-0x3d5512c7c6737b1863ab54bbc587d408bf7be7", "op": "/", "rhs": -833459414 }
+    },
+    "div-by-zero": {
+      "action": "calc",
+      "arguments": { "lhs": 5, "op": "/", "rhs": 0 }
+    }
+  },
+
+  "expectedResults": {
+    "div-pos-pos":      { "answer": 2 },
+    "div-neg-pos":      { "answer": -2 },
+    "div-pos-neg":      { "answer": -2 },
+    "div-neg-neg":      { "answer": 2 },
+    "div-large-pos":    { "answer": "0x766c7d74835555555555555" },
+    "div-large-neg":    { "answer": "-0x766c7d74835555555555555" },
+    "div-large-hex":    { "answer": "0x6df37f675ef6eadf5ab9a207" },
+    "div-large-hex-neg":{ "answer": "-0x6df37f675ef6eadf5ab9a207" },
+    "div-rest-pos":     { "answer": -2 },
+    "div-rest-neg":     { "answer": -2 },
+    "div-hex-dozent":   { "answer": "0x13c0e79739cc768c7c890bbe83e7eb2" },
+    "div-by-zero":      { "error": "Division by zero" }
+  }
+}

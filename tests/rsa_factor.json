@@ -1,0 +1,30 @@
+{
+  "testcases": {
+    "000001": {
+      "action": "rsa_factor",
+      "arguments": {
+        "moduli": [
+          15,
+          221,
+          77,
+          1313
+        ]
+      }
+    }
+  },
+  "expectedResults": {
+    "000001": {
+      "factored_moduli": [
+        [
+          13,
+          17
+        ],
+        [
+          13,
+          101
+        ]
+      ]
+    }
+  }
+}
+

@@ -1,0 +1,35 @@
+{
+  "testcases": {
+    "000001": {
+      "action": "gfpoly_factor_edf",
+      "arguments": {
+        "F": [
+          "rHzoCnnHvPoQhJaMSk/FRg==",
+          "dAUOpFYDxniFGuEnoN5b2w==",
+          "3Fze1+7kmNw60coA4rwagA==",
+          "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "d": 1,
+        "poly": "p1"
+      }
+    }
+  },
+  "expectedResults": {
+    "000001": {
+      "factors": [
+        [
+          "8Hbd1Jc2wRai70ErC0wP+g==",
+          "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        [
+          "3HLNM5vkZvkFgSEuR6kctQ==",
+          "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        [
+          "8FjOMOI2PzOdv6oFrlkJzw==",
+          "gAAAAAAAAAAAAAAAAAAAAA=="
+        ]
+      ]
+    }
+  }
+}
