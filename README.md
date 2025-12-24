@@ -19,7 +19,7 @@ The tool implements tasks aligned with the course material:
   - padding_oracle/
     - server_connection.py - binary client/server protocol for the padding oracle assignment
     - padding_oracle.py - PKCS#7 CBC padding oracle attack
-    - aes_gcm.py - GCM utilities (e.g., GHASH)
+  - aes_gcm.py - GCM utilities (e.g., GHASH)
   - gf128.py - GF(2^128) arithmetic (mul, divmod, inverse, division, power, sqrt)
   - gfpoly.py - polynomials over GF(2^128) (sort, monic, add/mul/divmod, gcd, pow/powmod, diff/sqrt, SFF/DDF/EDF factorization)
   - gcm_crack.py - key recovery under nonce reuse; producing valid tags for a forgery
